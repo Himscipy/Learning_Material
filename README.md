@@ -39,7 +39,7 @@ activate myenv
 Now that your environment is activated, you can install the required packages (`numpy`, `pandas`, `matplotlib`, `scipy`, and `scikit-learn`) using the following command:
 
 ```sh
-conda install numpy pandas matplotlib scipy scikit-learn jupyter
+conda install numpy pandas matplotlib scipy scikit-learn jupyter seaborn
 ```
 
 Conda will resolve dependencies and install all the specified packages.
