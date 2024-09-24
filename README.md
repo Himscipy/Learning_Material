@@ -1,14 +1,9 @@
 # Description.
 - Python Code for learning basic concepts of data-driven modelling.
 - Ipython notebooks format to discuss individual concepts.
-  
 
-# Requirements
-- Basic knowe
-
-# Installation Requirement:
 # Step-by-Step Guide to Create a Conda Environment and Set Up Essential Packages
-
+This conda env setup will help in running the ipython notebook 
 
 ## Step 1: Install Anaconda or Miniconda
 If you haven't installed Anaconda or Miniconda on your machine, you need to do that first. You can download and install them from the following links:
@@ -44,10 +39,16 @@ activate myenv
 Now that your environment is activated, you can install the required packages (`numpy`, `pandas`, `matplotlib`, `scipy`, and `scikit-learn`) using the following command:
 
 ```sh
-conda install numpy pandas matplotlib scipy scikit-learn
+conda install numpy pandas matplotlib scipy scikit-learn jupyter
 ```
 
 Conda will resolve dependencies and install all the specified packages.
+
+# Step 5.1 : Install the Jupyter Kernel
+```sh
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+```
+This command will make the myenv environment available as a kernel option in Jupyter Notebook.
 
 ## Step 6: Verify the Installation
 To make sure the packages are installed correctly, you can start a Python session and try importing them:
